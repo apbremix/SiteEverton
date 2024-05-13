@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Loja Online</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Minha Loja</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <button type="button" class="btn btn-outline-info">Home</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-info">
+                carrinho
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-outline-info">
+                Login
+              </button>
+            </li>
+          </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <div class="container mt-4">
+      <h1>Bem-vindo à Minha Loja Online</h1>
+      <p>Encontre os melhores produtos e faça suas compras com facilidade.</p>
+
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IphonePromo.jpg" class="d-block w-60" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="XiaomiPromo.jpg" class="d-block w-60" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="FlipPromo.jpg" class="d-block w-60" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Exemplo de produto -->
+      <div class="card" style="width: 20rem;">
+        <img src="RedmiNote10.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">R$1300,00</p>
+          <h5 class="card-title">Redmi Note 10</h5>
+          <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="Iphone14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">R$4200,00</p>
+          <h5 class="card-title">iphone 14</h5>
+          <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="Zflip2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <p class="card-text">R$2500,00</p>
+          <h5 class="card-title">Sansug Zflip 2</h5>
+          <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Rodapé -->
+    <footer class="footer bg-dark text-light text-center py-3">
+      <div class="container">
+        &copy; 2024 Minha Loja Online. Todos os direitos reservados.
+        <a>(55)34999999999</a>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessário para plugins JavaScript do Bootstrap) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Script personalizado -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
